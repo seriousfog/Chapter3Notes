@@ -52,6 +52,7 @@ const readLine = require ('readline-sync');
 
 
 function dart(){
-    let round1 = Number(readLine.question("Enter a temperature for Monday: "));
-    let round2 = Number(readLine.question("Enter a temperature for Tuesday: "));
-    let round3 = Number(readLine.question("Enter a temperature for Wednesday: "));
+    let round1 = Number(readLine.question("Enter your first score for round 1: "));
+    let round2 = Number(readLine.question("Enter your first score for round 2: "));
+    let round3 = Number(readLine.question("Enter your first score for round 3: "));
+    return (`Your total score is: ${round1+round2+round3}`);
