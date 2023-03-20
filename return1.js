@@ -51,48 +51,7 @@ const readLine = require ('readline-sync');
 // }
 
 
-// function dart() {
-//     let round1 = Number(readLine.question("Enter your first score for round 1: "));
-//     let round2 = Number(readLine.question("Enter your first score for round 2: "));
-//     let round3 = Number(readLine.question("Enter your first score for round 3: "));
-//     return (`Your total score is: ${round1 + round2 + round3}`);
-// }
-// console.log(dart())
-
-
-// function dart() {
-//     let round1 = Number(readLine.question("Enter your first score for player 1: "));
-//     let round2 = Number(readLine.question("Enter your second score for player 1: "));
-//     let round3 = Number(readLine.question("Enter your third score for player 1: "));
-//     let round4 = Number(readLine.question("Enter your first score for player 2: "));
-//     let round5 = Number(readLine.question("Enter your second score for player 2: "));
-//     let round6 = Number(readLine.question("Enter your third score for player 2: "));
-//     console.log(`Player 1's total score is: ${round1 + round2 + round3} and Player 2's total score is: ${round4 + round5 + round6}`);
-//
-//     if( round1+round2+round3 > round4+round5+round6 )
-//         console.log("Player 1 wins!")
-//     else
-//         console.log("Player 2 wins!")
-//     }{
-// }
-// console.log(dart())
-//
-
-
-// function linear() {
-//     let slope = readLine.question('What is the slope?: ');
-//     let yintercept = readLine.question('What is the y-intercept?: ');
-//     console.log(`y = ${slope}x + ${yintercept}`)
-// }
-// linear();
-
-
-// function slope() {
-//     let x1 = readLine.question('What is x1?: ');
-//     let y1 = readLine.question('What is y1?: ');
-//     let x2 = readLine.question('What is x2?: ');
-//     let y2 = readLine.question('What is y2?: ');
-//     console.log(`The slope of the line is ${y2 - y1 / x2 - x1}`)
-// }
-// slope();
-
+function dart(){
+    let round1 = Number(readLine.question("Enter a temperature for Monday: "));
+    let round2 = Number(readLine.question("Enter a temperature for Tuesday: "));
+    let round3 = Number(readLine.question("Enter a temperature for Wednesday: "));
