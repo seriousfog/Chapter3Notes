@@ -1,5 +1,6 @@
 const readLine = require ('readline-sync');
 
+//1
 
 // function nameswap(){
 //     let first = readLine.question("Enter your first name: ");
@@ -8,6 +9,7 @@ const readLine = require ('readline-sync');
 // }
 // console.log(nameswap())
 
+//2
 
 // function numbergenerator(){
 //     let interger = readLine.question("Enter a number 0-9: ");
@@ -16,6 +18,7 @@ const readLine = require ('readline-sync');
 // }
 // console.log(numbergenerator())
 
+//3
 
 // function averagetemperature(){
 //     let temp1 = Number(readLine.question("Enter a temperature for Monday: "));
@@ -32,6 +35,7 @@ const readLine = require ('readline-sync');
 // }
 // console.log(averagetemperature())
 
+//4
 
 //Charity Collection Revisited
 // function sum(num1, num2, num3, num4){
@@ -50,6 +54,7 @@ const readLine = require ('readline-sync');
 //     }
 // }
 
+//5
 
 // function dart() {
 //     let round1 = Number(readLine.question("Enter your first score for round 1: "));
@@ -59,6 +64,7 @@ const readLine = require ('readline-sync');
 // }
 // console.log(dart())
 
+//6
 
 // function dart() {
 //     let round1 = Number(readLine.question("Enter your first score for player 1: "));
@@ -78,6 +84,7 @@ const readLine = require ('readline-sync');
 // console.log(dart())
 //
 
+//7
 
 // function linear() {
 //     let slope = readLine.question('What is the slope?: ');
@@ -86,6 +93,7 @@ const readLine = require ('readline-sync');
 // }
 // linear();
 
+//8
 
 // function slope() {
 //     let x1 = readLine.question('What is x1?: ');
