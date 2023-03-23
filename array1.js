@@ -6,7 +6,7 @@
 
 
 // function lastelement(arr){
-//     console.log( arr[3] )
+//     console.log( arr[arr.length - 1] )
 // } lastelement( ['a', 'b', 'c', 'd'] )
 // lastelement( [7, 5, 3, 1] )
 
@@ -17,4 +17,13 @@
 // emptyelement(  )
 
 
+// let number = ['5', '6', '7', '8' ];
+// for (let number = 8; number >= 5 ; number--){
+//     console.log(number)
+// }
 
+
+let number = ['9', '10', '11', '12', '13', '14', '15', '16'];
+for (let number = 8; number >= 5 ; number--){
+    console.log(number)
+}
