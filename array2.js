@@ -42,12 +42,15 @@
 // }
 
 
-for (let i=0; i<highScores.length; i++){
-    if (highScores[i]>= newScore){
-        newHighScores.push(highScores[i])
-    } else{
-        newHighScores.push(newScore)
-        newScore=0
-    }
-}
-console.log(newHighScores)
+// let highScores = [107, 99, 98]
+// let newScore = 101
+// let newHighScores = []
+// for (let i=0; i<highScores.length; i++){
+//     if (highScores[i]>= newScore){
+//         newHighScores.push(highScores[i])
+//     } else{
+//         newHighScores.push(newScore)
+//         newScore=0
+//     }
+// }
+// console.log(newHighScores)
