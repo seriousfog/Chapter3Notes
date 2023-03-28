@@ -30,7 +30,9 @@
 // console.log('newAges: ' + newAges)
 
 
-
+// let values = [5, 4, 3, 2, 1]
+//
+// compareArrays(values)
 // function compareArrays(arr) {
 //     let newVals = [];
 //     for (let i = 0; i < arr.length; i++) {
