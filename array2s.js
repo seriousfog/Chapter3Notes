@@ -1,16 +1,13 @@
 
 //1
-// let values = [12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-// positive(values)
 // function positive(n){
-//     let newVals = [];
-//     for (let i = 0; i < n.length; i++) {
-//         newVals.push(n[i]);
+//     let pop = [];
+//     for (let i = 1; i <= n; i++){
+//         pop.push(i);
 //     }
-//     newVals[0] = 12;
-//     console.log('originalArray: ' + n)
-//     console.log('newVals: ' + newVals)
+//     console.log(pop);
 // }
+// positive(32);
 
 
 //2
@@ -25,19 +22,50 @@
 
 
 //3
-
-// function question(x){
-// let numbers = ['1', '2', '3', '4', '5'];
-// numbers.unshift('1', '2', '3', '4', '5')
-// console.log('numbers: ' + x)
+// function replace(certainnum, x) {
+//     let number = [];
+//     for (let i = 0; i < certainnum.length;i++){
+//         number.push(certainnum[i]);
+//         number[i] = x;
+//     }
+//     console.log(number)
 // }
+// replace([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 123);
 
 
 //4
-
-// function question(x){
-// let numbers = ['1', '2', '3', '4', '5'];
-// numbers.unshift('1', '2', '3', '4', '5')
-// console.log('numbers: ' + x)
-// console.log(numbers)
+// function replace(certainnum, x) {
+//     let number = [];
+//     for (let i = 0; i < certainnum.length;i++){
+//         number.push(certainnum[i]);
+//         number[i] = x;
+//     }
+//     console.log(number)
+//     //don't know how to make a new original one
 // }
+// replace([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 123);
+
+
+//5
+// function comparing(arr) {
+//     let lastval = arr.length - 0;
+//     let firstval = arr[0];
+//     let comparedarr = [];
+//
+//     if (lastval > firstval){
+//         for (let i = 0; i < arr.length;i++){
+//             comparedarr.push(arr[i]);
+//             comparedarr[i] = lastval;
+//         }
+//
+//         console.log(comparedarr);
+//     } else if (lastval < firstval){
+//     for (let i = 0; i < arr.length;i++){
+//
+//         comparedarr.push(arr[i]);
+//         comparedarr[i] = firstval;
+//     }
+//     console.log(comparedarr);
+// }
+// }
+// comparing([1, 2, 3 ,3  4,]);
