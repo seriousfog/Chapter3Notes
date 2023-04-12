@@ -35,4 +35,4 @@ With this item Mario ${question[10]} and confronts ${question[11]} more ${questi
 This makes Mario ${question[13]} and he begins to run away again to his ${question[14]}.
 He begins to ${question[15]} while sleeping at night.  When he wakes up, he sees a giant ${question[16]} and it begins to ${question[17]} him.
 He tries to ${question[18]} the thing with his giant ${question[19]} and when he made direct contact with it, it goes through it and Mario starts ${question[20]}.
-He wakes up all ${question[21]} and begins his next journey in /a ${question[22]}.`);
+He wakes up all ${question[21]} and begins his next journey in /a/ ${question[22]}.`);
