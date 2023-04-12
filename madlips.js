@@ -26,7 +26,8 @@ let question20 = readLine.question("Enter a verb: ")
 let question21 = readLine.question("Enter a adjective: ")
 let question22 = readLine.question("Enter a noun: ")
 
-question.push(question1, question2, question3, question4, question5, question6, question5, question6, question7, question8, question9, question10, question11, question12, question13, question14, question15, question16, question17, question18, question19, question20, question21, question22);
+question.push(question1, question2, question3, question4, question5, question6, question5, question6, question7, question8, question9, question10, question11,
+    question12, question13, question14, question15, question16, question17, question18, question19, question20, question21, question22);
 console.log(`In the morning, Mario likes to ${question[1]} while holding onto a/the ${question[2]}
 A little bit later, Mario starts to ${question[3]} to on a/${question[4]} in secret.
 During the night, Mario encounters ${question[5]} ${question[6]} and tries to ${question[7]}.
