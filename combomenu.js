@@ -70,7 +70,7 @@ if (fries == "yes" || fries == "sure") {
 }
 if (fries == "no")
     console.log(`No? Ok.`)
-console.log(`And so, your total so far is $${sandwichprice+drinkprice+friesprice}!`)
+console.log(`And so, your total so far is $${sandwichprice + drinkprice + friesprice}!`)
 
 
 
