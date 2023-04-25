@@ -65,8 +65,6 @@ if (fries == "yes" || fries == "sure") {
     //     totalprice.push(megafries)
     // }
     console.log(`Now, ${friesSize} fries will be added to your total.`)
-    console.log(`And so, your total so far is $${totalprice}!`)
-
 }
 if (fries == "no")
     console.log(`No? Ok.`)
