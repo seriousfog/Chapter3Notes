@@ -1,20 +1,22 @@
 const readLine = require ('readline-sync');
 
-let totalprice = []
+let sandwichprice = []
+let drinkprice = []
+let friesprice = []
 
 let sandwich = readLine.question("What type of sandwich do you want to get? (chicken $5.25, beef $6.25, tofu $5.75): ")
 console.log(`A ${sandwich} sandwich and...`)
 if (sandwich == "chicken"){
     let chickensandwich = 5.25
-    totalprice.push(chickensandwich)
+    sandwichprice.push(chickensandwich)
 }
 if (sandwich == "beef"){
     let beefsandwich = 6.25
-    totalprice.push(beefsandwich)
+    sandwichprice.push(beefsandwich)
 }
 if (sandwich == "tofu"){
     let tofusandwich = 5.75
-    totalprice.push(tofusandwich)
+    sandwichprice.push(tofusandwich)
 }
 let drink = readLine.question("Would you want a beverage with that?: ")
 
@@ -22,15 +24,15 @@ if (drink == "yes"){
     let drinksize = readLine.question("A small ($1.00), medium ($1.75), or a large ($2.25)? ")
     if (drinksize == "small"){
         let smalldrink = 1.00
-        totalprice.push(smalldrink)
+        drinkprice.push(smalldrink)
     }
     if (drinksize == "medium"){
         let mediumdrink = 1.75
-        totalprice.push(mediumdrink)
+        drinkprice.push(mediumdrink)
     }
     if (drinksize == "large"){
         let largedrink = 1.00
-        totalprice.push(largedrink)
+        drinkprice.push(largedrink)
     }
     console.log(`So you will be having a ${sandwich} sandwich and a ${drinksize} drink. `)
 }
@@ -48,27 +50,27 @@ if (fries == "yes" || fries == "sure") {
     }
     if (friesSize == "small"){
         let smallfries = 1.00
-        totalprice.push(smallfries)
+        friesprice.push(smallfries)
     }
     if (friesSize == "medium"){
         let mediumfries = 1.50
-        totalprice.push(mediumfries)
+        friesprice.push(mediumfries)
     }
     if (friesSize == "large"){
         let largefries = 2.00
-        totalprice.push(largefries)
+        friesprice.push(largefries)
     }
-    if (megafries == "yes"){
-        let megasizefries = 2.00
-        totalprice.push(megasizefries)
-    }
+    // if (megafries == "yes"){
+    //     let megafries = 2.00
+    //     totalprice.push(megafries)
+    // }
     console.log(`Now, ${friesSize} fries will be added to your total.`)
     console.log(`And so, your total so far is $${totalprice}!`)
 
 }
 if (fries == "no")
     console.log(`No? Ok.`)
-console.log(`And so, your total so far is $${totalprice}!`)
+console.log(`And so, your total so far is $${sandwichprice+drinkprice+friesprice}!`)
 
 
 
