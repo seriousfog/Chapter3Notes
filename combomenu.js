@@ -81,11 +81,11 @@ if (fries == "yes" || fries == "sure") {
         ordered.push(" large fries")
 
     }
-    if (megafries == "yes"){
-        orderfries = 1
-        totalprice.push(2.00)
-        ordered.push(" mega fries")
-    }
+    // if (megafries == "yes"){
+    //     orderfries = 1
+    //     totalprice.push(2.00)
+    //     ordered.push(" mega fries")
+    // }
     console.log(`Now, ${friesSize} fries will be added to your total.`)
 }
 if (fries == "no"){
