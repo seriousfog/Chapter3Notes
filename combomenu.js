@@ -59,35 +59,32 @@ if (fries == "yes" || fries == "sure") {
 
     if (friesSize == "small") {
         let megafries = readLine.question("Would you also like to MEGA-SIZE your small fries?: ")
-        if (megafries === "yes") {
-            console.log(`You will now get the large fries price for the MEGA-SIZE fries.`)
+        if (megafries == "yes") {
+            orderfries = 1
+            totalprice.push(2.00)
+            ordered.push(" mega-size fries")
         }
     }
-    if (friesSize == "small"){
+    if (friesSize == "small") {
         orderfries = 1
         totalprice.push(1.00)
         ordered.push(" small fries")
 
     }
-    if (friesSize == "medium"){
+    if (friesSize == "medium") {
         orderfries = 1
         totalprice.push(1.50)
         ordered.push(" medium fries")
 
     }
-    if (friesSize == "large"){
+    if (friesSize == "large") {
         orderfries = 1
         totalprice.push(2.00)
         ordered.push(" large fries")
-
     }
-    // if (megafries == "yes"){
-    //     orderfries = 1
-    //     totalprice.push(2.00)
-    //     ordered.push(" mega fries")
-    // }
     console.log(`Now, ${friesSize} fries will be added to your total.`)
 }
+
 if (fries == "no"){
     orderfries = 1
 console.log(`No? Ok.`)
